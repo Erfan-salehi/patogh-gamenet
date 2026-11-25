@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Byekan;
+  background-color: #fbc12f;
+}
+.menu {
+  background-color: #fbc12f;
+}
+.header-list {
+  list-style-type: none;
+  text-align: center;
+}
+.header-item {
+  display: inline-block;
+  padding: 40px 15px;
+  font-size: 25px;
+  color: black;
+}
+.header-item a {
+  text-decoration: none;
+  color: black;
+}
+.header-item:hover {
+  color: white;
+}
+.aks {
+  height: 1130px;
+}
+
+.bazi {
+  text-align: center;
+  display: inline-block;
+}
+.titr {
+  font-size: 28px;
+  text-align: center;
+  background-color: #2596be;
+  color: black;
+  font-family: sans-serif;
+  display: inline-block;
+  border-radius: 50px;
+  font-size: 40px;
+  width: 400px;
+  margin: 15px 0;
+}
+.bazi-list {
+  list-style-type: none;
+}
+.bazi-item {
+  list-style-type: none;
+  width: 560px;
+  height: 500px;
+  display: inline-block;
+}
+.gta {
+  width: 566px;
+  height: 890px;
+}
+.fc27 {
+  width: 569px;
+  height: 890px;
+}
+
+.cod {
+  width: 680px;
+  height: 890px;
+}
+.biliard {
+  width: 1200px;
+  height: 880px;
+  background-image: url(../images/biligem.jpeg);
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+}
+.todar {
+  width: 700px;
+  height: 700px;
+  background-color: rgba(255.255.255, 0.9);
+  margin-right: 1100px;
+  margin-top: 160px;
+  border-radius: 20%;
+  text-align: center;
+  padding: 100px 70px;
+  color: white;
+}
+.biliard-titr {
+  font-size: 60px;
+  text-align: center;
+  padding-right: 120px;
+  font-weight: bold;
+}
+.biliard-matn {
+  line-height: 3;
+  font-size: 25px;
+  color: black;
+  text-align: justify;
+  padding-right: 50px;
+  direction: rtl;
+  margin-top: 50px;
+}
+.about {
+  background-image: url(../images/gamepat.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1300px;
+  background-blend-mode: multiply;
+}
+.circle {
+  width: 900px;
+  display: inline-block;
+  height: 900px;
+  background-color: rgba(130, 130, 130, 0.7);
+  margin-top: 190px;
+  margin-right: 400px;
+  border-radius: 50%;
+  padding: 100px 70px;
+  color: white;
+}
+.circle-titr {
+  color: #fbc12f;
+  font-size: 80px;
+  text-align: center;
+}
+.circle-matn {
+  line-height: 2.8;
+  font-size: 22px;
+  color: white;
+  padding: 70px 14px;
+  text-align: justify;
+  direction: rtl;
+  font-weight: bold;
+}
+.footer {
+  height: 250px;
+  background-color: white;
+  text-align: center;
+}
+.footer p {
+  font-size: 20px;
+  padding-top: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+  color: black;
+  font-weight: bold;
+  text-align: right;
+}
+.instagram {
+  width: 90px;
+}
+.telegram {
+  width: 90px;
+}
+.bale {
+  width: 90px;
+}
+.aksha {
+  display: flex;
+  flex-direction: column;
+}
+.tasvir {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.crush {
+  width: 100%;
+}
+.asas {
+  width: 30%;
+}
+.ps5 {
+  width: 98%;
+}
